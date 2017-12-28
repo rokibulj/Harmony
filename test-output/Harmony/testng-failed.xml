@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Harmony]">
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="tests.TestRegisterFeature">
+        <methods>
+          <include name="testFirstNameFieldWithNumericCharacter"/>
+          <include name="testGenderWithRandomOption"/>
+          <include name="phoneNumberFieldWithString"/>
+          <include name="testGenderWithoutSelectedOption"/>
+          <include name="classSetUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.TestRegisterFeature -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Harmony] -->

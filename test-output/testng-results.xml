@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18970" started-at="2017-12-25T20:17:30Z" finished-at="2017-12-25T20:17:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18970" started-at="2017-12-25T20:17:30Z" finished-at="2017-12-25T20:17:49Z">
+      <class name="tests.TestSigninFeature">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="setup" is-config="true" duration-ms="8298" started-at="2017-12-25T15:17:22Z" finished-at="2017-12-25T15:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="classSetUp" is-config="true" duration-ms="2544" started-at="2017-12-25T15:17:31Z" finished-at="2017-12-25T15:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="testSignInWithEmptyEmailValidPassword()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithEmptyEmailValidPassword" duration-ms="4391" started-at="2017-12-25T15:17:33Z" finished-at="2017-12-25T15:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithEmptyEmailValidPassword -->
+        <test-method status="PASS" signature="testSignInWithInvalidEmailPassword()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithInvalidEmailPassword" duration-ms="1677" started-at="2017-12-25T15:17:38Z" finished-at="2017-12-25T15:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithInvalidEmailPassword -->
+        <test-method status="PASS" signature="testSignInWithInvalidEmailValidPassword()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithInvalidEmailValidPassword" duration-ms="2563" started-at="2017-12-25T15:17:39Z" finished-at="2017-12-25T15:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithInvalidEmailValidPassword -->
+        <test-method status="PASS" signature="testSignInWithValidCredentials()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithValidCredentials" duration-ms="3528" started-at="2017-12-25T15:17:42Z" finished-at="2017-12-25T15:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithValidCredentials -->
+        <test-method status="PASS" signature="testSignInWithValidEmailEmptyPassword()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithValidEmailEmptyPassword" duration-ms="1283" started-at="2017-12-25T15:17:45Z" finished-at="2017-12-25T15:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithValidEmailEmptyPassword -->
+        <test-method status="PASS" signature="testSignInWithValidEmailInvalidPassword()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithValidEmailInvalidPassword" duration-ms="1173" started-at="2017-12-25T15:17:47Z" finished-at="2017-12-25T15:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithValidEmailInvalidPassword -->
+        <test-method status="PASS" signature="testSignInWithoutCredentials()[pri:0, instance:tests.TestSigninFeature@31ef45e3]" name="testSignInWithoutCredentials" duration-ms="1423" started-at="2017-12-25T15:17:48Z" finished-at="2017-12-25T15:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithoutCredentials -->
+      </class> <!-- tests.TestSigninFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
